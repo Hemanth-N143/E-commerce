@@ -1,0 +1,50 @@
+.heading{
+    text-align: center;
+    color: coral;
+    font-weight: 500;
+    font-size:xx-large;
+    margin-top: 20px;
+}
+.products{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 40px;  
+    
+}
+.product-card{
+    flex: 1 1 300px;
+    max-width: 300px;
+    transition: transform 5.0s;
+}
+.product-card:hover{
+    transform: translateY(-20px);
+    border: 10px solid orange;
+}
+.product-card img{
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.product-info{
+    background-color: pink;
+    padding: 15px;
+} 
+.product-info button{
+    color: black;
+    background-color: orangered;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 9px;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 600; 
+}
+.product-info button :hover{
+    background-color: orange;
+}
+
+

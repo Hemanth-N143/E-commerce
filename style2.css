@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color:black;
+    
+}
+.new-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.new-bar:hover{
+    background-color: gray;
+}
+.logo img{
+    width: 100px;
+    margin: 10px ;
+} 
+.search-box{
+    display: flex;
+    flex:1;
+    margin: 0px 20px;
+}
+.search-box input{
+    display:flex;
+    flex-grow: 1;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.search-box button{
+    padding: 5px 15px;
+    margin-left: 10px;                    
+    border-radius: 5px 5px 5px 5px;
+    background-color:darkgrey ;
+    color: white;
+    cursor: pointer;
+}
+.search-box button:hover{
+    background-color: orange;
+}
+.new-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.new-links a:hover{
+    text-decoration: none;
+}
+.nav-icon a{
+    margin-left: 15px;
+}
+.nav-icon img{
+    width: 35px;
+    filter: invert(100%);
+}
+.hero-section img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.hero-section{
+    margin-top: 150px;
+}
+.footer{
+    margin-top: 20px;
+    background-color:grey ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+.footer-links{
+    margin: 20px;
+}
+.footer-links h4{
+    margin-top: 0;
+}
+.footer-links ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li{
+    margin-bottom: 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    
+}
+.copyright{
+    text-align: center;
+    font-size:14px ;
+    color: white;
+}
+
+

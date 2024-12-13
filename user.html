@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background: rgb(131,58,180);
+            background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
+        p{
+            display: none;
+           
+        }
+        .form input:hover+p{
+            display: inline;
+            background-color: greenyellow;
+            font-family: monospace;
+        }
+        .form{
+            border: solid black 2px;
+            margin-left: 450px;
+            margin-right: 450px;
+            margin-top: 75px;
+            padding: 50px 80px;
+            
+        }
+        .form h1{
+            font-family: cursive;
+            color: coral;
+            font-weight: 700;
+            margin-left: 50px;
+            text-decoration:underline;
+        }
+        .form label{
+            color: chartreuse;
+            font-family: sans-serif; 
+            font-weight: 700;
+        }
+        .form input{
+            border-color:rebeccapurple;
+            display:flex;
+            flex-grow: 1;
+            padding: 5px 30px;
+            justify-content: space-around;
+            margin-left: 24px;
+            border-radius:5px ;
+        }
+        .form button{
+            padding: 10px 105px;
+            background-color: darkorange;
+            color: black;
+            font-size: 11px;
+            margin-left: 4px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+        
+        
+        
+       
+       
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form">
+            <h1>Sign-Up</h1>
+        <label>Name</label><br>
+        <input type="text"name="name" size="15" required><br>
+        <p>Enter Your Name</p>
+        <label for="">Email</label><br>
+        <input type="email"  name="peemai" size="15" required><br>
+        <p>Enter Your Email</p>
+        <label for="">Phone Number</label><br>
+        <input type="number" name="num" size="10" required><br>
+        <p>Enter your Phone number</p>
+        <label for="">Password</label><br>
+        <input type="password"name="pwd" size="8" required><br>
+        <p>Enter Your Password</p>
+        <br><a href="/E-commerce project/box.html" target="_blank"><button>Submit</button></a>
+        </div>
+       
+    </form>
+</body>
+</html>
